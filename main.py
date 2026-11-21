@@ -143,8 +143,8 @@ for label, val in fields:
     if label.startswith("TIJELO"):
         fy -= 6
 
-# signature
-sy = 724
+# signature (nudged down after first render so it clears the authority field)
+sy = 732
 text(LX0 + 30, sy, "Tomas Ren Havel", SERIF_I(24), fill=(30, 44, 92))
 d.line([(LX0 + 30, sy + 34), (LX0 + 250, sy + 34)], fill=INK_SOFT, width=1)
 text(LX0 + 30, sy + 40, "POTPIS / HOLDER'S SIGNATURE", SANS(8), fill=GREY_TXT)
